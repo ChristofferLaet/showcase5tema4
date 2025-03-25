@@ -6,6 +6,10 @@
     <title>Hello, Bootstrap</title>
     <meta name="description" content="Bootstrap Template">
 
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+    </svg>
+
     <!-- Styles -->
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -13,11 +17,55 @@
     <!-- Scripts -->
     <script src="js/vendor/bootstrap.bundle.min.js" defer></script>
     <script src="js/script.js" defer></script>
+    <script src="js/vendor/testjava.js" defer></script>
 </head>
 <body class="min-vh-100 overflow-y-scroll d-flex flex-column">
     <header>
-        <!-- Your navigation could live here, or you can delete the header tag -->
+        <img class="logo" src="billeder/logo.png">
+        <h1>Dansk Model Jernbane Union</h1>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control search2" placeholder="Søgning..." aria-label="Search" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><img src="billeder/søgeicon.png" width="35%" height=45%"></button>
+        </div>
     </header>
+    <nav>
+        <button type="button" class="btn btn-primary">Hjem</button>
+        <button type="button" class="btn btn-primary">Nyheder</button>
+        <button type="button" class="btn btn-primary">Event</button>
+        <button type="button" class="btn btn-primary">Udstillinger</button>
+        <button type="button" class="btn btn-primary">Om DMJU</button>
+        <button type="button" class="btn btn-primary">Klubdata</button>
+        <button type="button a1" class="btn btn-primary">A</button>
+    </nav>
+
+
+<!-- chatgpt til at skabe en counter -->
+
+    <div class="countdown">
+        <div class="time-box">
+            <span id="days" class="digit">00</span>
+            <span class="label">Dage</span>
+        </div>
+        <div class="time-box">
+            <span id="hours" class="digit">00</span>
+            <span class="label">Timer</span>
+        </div>
+        <div class="time-box">
+            <span id="minutes" class="digit">00</span>
+            <span class="label">Minutter</span>
+        </div>
+        <div class="time-box">
+            <span id="seconds" class="digit">00</span>
+            <span class="label">Sekunder</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+<!--- chatgpt counter slut --->
+
+
 
     <main class="flex-grow-1">
         <section class="container mt-4">
