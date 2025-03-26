@@ -157,3 +157,9 @@ a {
 
 
 /* chatgpt counter version 2 */
+
+
+.mt-5{
+    display: flex;
+    justify-content: center;
+}
