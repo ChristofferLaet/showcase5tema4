@@ -1,8 +1,10 @@
 
 
 .logo{
-    width: 13%;
-    height: 13%;
+    width: 4%;
+    height: 4%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .a1{
@@ -10,11 +12,22 @@
 }
 
 header{
+    padding-bottom: 8px;
+    padding-top: 15px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
+.overskrift{
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+}
 .search2{
     outline-color: #0d6efd;
 }
@@ -22,10 +35,19 @@ header{
 nav{
     display: flex;
     justify-content: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    column-gap: 2px;
+    padding-bottom: 12px;
 }
 
 
 
+.sectionform{
+    display: flex;
+    justify-content: flex-start;
+    gap
+}
 
 
 .countdown {
@@ -59,9 +81,79 @@ nav{
 
 .label {
     font-size: 14px;
-    color: black;
     margin-top: 5px;
     background: lightgray;
     padding: 3px 8px;
     border-radius: 3px;
 }
+
+
+/* chatgpt counter  */
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    background-color: #D9D9D9;
+}
+
+.w5{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.input-group{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mb-3{
+    width: 15%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/* chatgpt counter version 2 */
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.billede2{
+    width: 400px;
+    height: 250px;
+}
+.container img {
+    max-width: 400px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+h1 {
+    margin: 0 0 10px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+/* chatgpt counter version 2 */
